@@ -1,0 +1,49 @@
+[core]
+reloadable = true
+order = 0
+
+[package]
+version = "1.0.0"
+category = "Simulation"
+title = "RBWheeledRobotExample"
+description = ""
+authors = ["NVIDIA"]
+repository = ""
+keywords = []
+changelog = "docs/CHANGELOG.md"
+readme = "docs/README.md"
+preview_image = "data/preview.png"
+icon = "data/icon.png"
+
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.isaac.ui" = {}
+"omni.isaac.core" = {}
+
+[[python.module]]
+name = "RBWheeledRobotExample_python"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotLimoDiff"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotLimoDiffROS2"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotLimoAckermannROS2"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotLimoAckermannTwistROS2"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotsKaya"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotSummit"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotSummitO3Wheel"
+
+[[python.module]]
+name = "RoadBalanceEdu.WheeledRobotSummitO3WheelROS2"
