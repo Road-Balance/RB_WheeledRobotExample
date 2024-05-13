@@ -22,28 +22,25 @@ icon = "data/icon.png"
 "omni.isaac.core" = {}
 
 [[python.module]]
-name = "RBWheeledRobotExample_python"
+name = "RBWheeledRobotExample_python.WheeledRobotLimoDiff"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotLimoDiff"
+name = "RBWheeledRobotExample_python.WheeledRobotLimoDiffROS2"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotLimoDiffROS2"
+name = "RBWheeledRobotExample_python.WheeledRobotLimoAckermannROS2"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotLimoAckermannROS2"
+name = "RBWheeledRobotExample_python.WheeledRobotLimoAckermannTwistROS2"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotLimoAckermannTwistROS2"
+name = "RBWheeledRobotExample_python.WheeledRobotsKaya"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotsKaya"
+name = "RBWheeledRobotExample_python.WheeledRobotSummit"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotSummit"
+name = "RBWheeledRobotExample_python.WheeledRobotSummitO3Wheel"
 
 [[python.module]]
-name = "RoadBalanceEdu.WheeledRobotSummitO3Wheel"
-
-[[python.module]]
-name = "RoadBalanceEdu.WheeledRobotSummitO3WheelROS2"
+name = "RBWheeledRobotExample_python.WheeledRobotSummitO3WheelROS2"

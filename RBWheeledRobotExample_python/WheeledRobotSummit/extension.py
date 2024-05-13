@@ -35,8 +35,8 @@ class Extension(BaseSampleExtension):
     def on_startup(self, ext_id: str):
         super().on_startup(ext_id)
         super().start_extension(
-            menu_name="RoadBalanceEdu",
-            submenu_name="WheeledRobots",
+            menu_name="RBWheeledRobotExample",
+            submenu_name="",
             name="RobotnikSummit",
             title="RobotnikSummit",
             doc_link="https://docs.omniverse.nvidia.com/isaacsim/latest/core_api_tutorials/tutorial_core_hello_world.html",
