@@ -46,6 +46,7 @@ class LimoAckermann(BaseSample):
     def og_setup(self):
 
         try:
+            # reference for message conversion : https://dingyan89.medium.com/simple-understanding-of-kinematic-bicycle-model-81cac6420357
             og.Controller.edit(
                 {"graph_path": "/ROS2Ackermann", "evaluator_name": "execution"},
                 {

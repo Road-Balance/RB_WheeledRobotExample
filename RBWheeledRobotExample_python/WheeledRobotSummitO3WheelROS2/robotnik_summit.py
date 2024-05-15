@@ -279,7 +279,6 @@ class RobotnikSummit(BaseSample):
         return
     
     async def setup_post_reset(self):
-        self._summit_controller.reset()
         await self._world.play_async()
         self._world.pause()
         return
